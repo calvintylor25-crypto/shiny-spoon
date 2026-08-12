@@ -1,0 +1,174 @@
+/* General page layout */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  width: 100%;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+/* Headings */
+h1 {
+  color: navy;
+  margin-top: 20px;
+}
+
+/* Images */
+img {
+  border: 3px solid navy;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;   /* stack links vertically on small screens */
+    align-items: center;
+  }
+  img {
+    width: 100%;              /* make images fit smaller screens */
+  }
+}
+ul {
+  list-style-type: square;
+  margin-top: 10px;
+}
+li {
+  margin: 5px 0;
+}
+/* Reset page layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Navigation bar at the top */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  width: 100%;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+/* Main content flows under nav */
+main {
+  padding: 20px;
+  text-align: center;   /* center text only */
+}
+
+/* Headings */
+h1 {
+  color: navy;
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;   /* stack links vertically on small screens */
+    align-items: center;
+  }
+}
+ul {
+  list-style-type: square;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+li {
+  margin: 5px 0;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+li {
+  margin: 5px 0;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  margin-top: 30px;
+  color: darkslategray;
+}
+form {
+  margin-top: 20px;
+  text-align: left;   /* keep labels aligned */
+  max-width: 400px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
