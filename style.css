@@ -172,3 +172,37 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;   /* smooth effect */
+}
+
+nav a:hover {
+  color: lightblue;              /* highlight on hover */
+}
+button {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: darkcyan;
+  transform: scale(1.05);   /* slight zoom effect */
+}
+li {
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+li:hover {
+  color: darkslateblue;
+  cursor: pointer;
+}
